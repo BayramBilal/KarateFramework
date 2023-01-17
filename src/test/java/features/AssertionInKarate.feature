@@ -1,11 +1,11 @@
 Feature: using match keyword
-  @wip
+
   Scenario: some matching example
     * def name = 'Severus Snape'
     * match name == 'Severus Snape'
     # similar to Assert.assertEquals(name,"Severus Snape");
     * match name != 'Tom Riddle'
-  @wip
+
   Scenario: more matching example
     * def employee =
   """
@@ -19,7 +19,7 @@ Feature: using match keyword
     * match emp_name == 'TJ'
     * match employee.salary == 24001
 
-  @wip
+
   Scenario: fuzzy matching
     * def employee =
   """
@@ -35,7 +35,7 @@ Feature: using match keyword
     * match employee.last_name == '#notpresent'
 
 
-  @wip
+
   Scenario: contains matching
     * def employees =
   """
